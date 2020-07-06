@@ -1,1 +1,1 @@
-# VenngageQATC
+# Venngage QA Technical Challenge
