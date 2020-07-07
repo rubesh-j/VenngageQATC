@@ -1,4 +1,4 @@
-public class RegisterPage {
+public class SignUpPage {
 	
 	private Selenium selenium;
 	
@@ -6,9 +6,11 @@ public class RegisterPage {
 	private static final String firstNameInput = "/html/body/div[1]/div/div/div/div[2]/div[2]/form/div[1]/div/div[1]/input";
 	
 	
-	public RegisterPage(){
+	public SignUpPage(){
 		this.selenium = Selenium();
 	}
 	
-	// Create a function that takes an Account and simulates signing up using Selenium actions.
+	// Create a function that takes an Account and simulates signing up using Selenium actions. (Refer to Selenium.java)
+	
+	
 }

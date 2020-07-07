@@ -1,5 +1,6 @@
 public class Selenium {
 	
+	// Assume that the WebDriver manages browser actions.
 	private WebDriver driver;
 	
 	public Selenium (){
