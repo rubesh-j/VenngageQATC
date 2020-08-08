@@ -2,6 +2,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -32,6 +33,7 @@ public class TestSignUp {
 		templates = new TemplatesPage(driver);
 		signUpPage = templates.clickTheSignUp();
 		signUpPage.newSignUp(account);
+		Assert.assertTrue(signUpPage.getGreetingText().contains("Let's personalize your page"));
 	}
 	
 	@DataProvider(name="accounts")

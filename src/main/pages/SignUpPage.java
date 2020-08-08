@@ -15,6 +15,8 @@ public class SignUpPage extends Selenium {
 	WebElement password;
 	@FindBy(id="btn_register")
 	WebElement signUp;
+	@FindBy(xpath = "//div[contains(@class,'styles__greeting--')]/h3")
+	WebElement greetingText;
 	WebDriver driver;
 	// Add XPaths here
 	private static final String firstNameInput = "/html/body/div[1]/div/div/div/div[2]/div[2]/form/div[1]/div/div[1]/input";
@@ -34,6 +36,9 @@ public class SignUpPage extends Selenium {
 		click(signUp);
 	}
 	
+	public String getGreetingText() {
+		return greetingText.getText();
+	}
 	// Create a function that takes an Account and simulates signing up using Selenium actions. (Refer to Selenium.java)
 	
 	
