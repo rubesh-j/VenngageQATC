@@ -23,18 +23,24 @@ Other Questions Answers:
 5) If you were asked to implement all the tests of sign up page, list out the tests:
  
  Answer: 
+ 
   InScope :
+  
      > Input Field validations for FirstName, LastName, Email & Password
+     
       eg. invalid email or password, scenario matrix validation by leaving each field empty, etc.
+      
     > SignUp with Google & SignUp with Facebook options. Though this is a third party authentication service, we should validate as a part of the Sign Up Page and check whether       the user is able to sign up without any error
+    
     > Sign up using already registered user details
  
   Out Of Scope:
+  
      >  Validating the other tabs like Home, Feature, etc in the Sign Up page.
   
 6) If the Google Recaptcha exists, what will you do to unblock the sign up automation tests and further tests after successful registration
  
-   Answer : CAPTCHA cannot be automated using Selenium. The best way to approach the scenario is to disable the Captcha in the test environment and validate. If the CAPTCHA is      text based we can try to decode it using OCR api's.
+    Answer : CAPTCHA cannot be automated using Selenium. The best way to approach the scenario is to disable the Captcha in the test environment and validate. If the CAPTCHA is      text based we can try to decode it using OCR api's.
  
 7) If you had to run the Sign Up test flow 100 times, each using a different email, what would you do to run the test efficiently?
 
@@ -42,8 +48,8 @@ Other Questions Answers:
  
 8) What else would you verify to make sure that the account has signed up successfully?
   
-  Answer : 
-   1) If our application is storing the account details in the Database, we need to validate whether the table is inserted with the new user details
-   2) We can also validate by signing into the account 
+    Answer : 
+       1) If our application is storing the account details in the Database, we need to validate whether the table is inserted with the new user details
+       2) We can also validate by signing into the account 
  
  
