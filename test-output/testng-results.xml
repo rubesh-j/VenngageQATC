@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-08T16:41:16 GMT-04:00" name="Default suite" finished-at="2020-08-08T16:41:35 GMT-04:00" duration-ms="19318">
+    <groups>
+    </groups>
+    <test started-at="2020-08-08T16:41:16 GMT-04:00" name="Default test" finished-at="2020-08-08T16:41:35 GMT-04:00" duration-ms="19318">
+      <class name="TestSignUp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestSignUp@96def03]" started-at="2020-08-08T16:41:16 GMT-04:00" name="setUp" finished-at="2020-08-08T16:41:25 GMT-04:00" duration-ms="9093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUp(Account)[pri:0, instance:TestSignUp@96def03]" started-at="2020-08-08T16:41:25 GMT-04:00" name="testSignUp" data-provider="accounts" finished-at="2020-08-08T16:41:34 GMT-04:00" duration-ms="9207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Account@7876d598]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSignUp@96def03]" started-at="2020-08-08T16:41:34 GMT-04:00" name="tearDown" finished-at="2020-08-08T16:41:35 GMT-04:00" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
